@@ -4,7 +4,7 @@
 #sudo lsof -i tcp:8080 &&  sudo lsof -i tcp:9001
 
 jenkins_port=8080
-sonar_port=9001
+sonar_port=9000
 
 docker pull jenkins:2.60.3
 docker pull sonarqube:6.3.1
